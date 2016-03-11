@@ -73,7 +73,7 @@ var extensions = [
 
 var cli = meow({
     'help': [
-        'Usage:  retext-mapbox-standard [<file> | <dir> ...] [-w, --why] [-t, --text]',
+        'Usage:  retext-shopify-standard [<file> | <dir> ...] [-w, --why] [-t, --text]',
         '',
         'Options:',
         '',
@@ -83,9 +83,9 @@ var cli = meow({
         'files in the current directory, `doc`, and `docs`.',
         '',
         'Examples',
-        '  $ echo "His network looks good" | retext-mapbox-standard',
-        '  $ retext-mapbox-standard *.md !example.md',
-        '  $ retext-mapbox-standard'
+        '  $ echo "His network looks good" | retext-shopify-standard',
+        '  $ retext-shopify-standard *.md !example.md',
+        '  $ retext-shopify-standard'
     ]
 });
 
