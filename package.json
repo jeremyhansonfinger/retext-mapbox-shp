@@ -1,5 +1,5 @@
 {
-  "name": "retext-mapbox-standard",
+  "name": "retext-shopify-standard",
   "version": "2.0.0",
   "description": "enforce mapbox language rules",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "node cli.js README.md && tap test/test.js"
   },
   "bin": {
-    "retext-mapbox-standard": "./cli.js"
+    "retext-shopify-standard": "./cli.js"
   },
   "keywords": [
     "retext",
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapbox/retext-mapbox-standard.git"
+    "url": "git@github.com:jeremyhansonfinger/retext-shp-standard.git"
   }
 }
